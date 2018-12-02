@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#5b60fa"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textColor="#000"
+        android:layout_marginBottom="100dp"
+        android:text="WhoIsInIt ¿?"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:id = "@+id/train"
+        android:background="@drawable/ripple_effect"
+        android:text="add face data"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:text="Add a person's face to be recognized"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></LinearLayout>
+
+    <Button
+        android:textColor="#FFF"
+        android:layout_width="200dp"
+        android:id = "@+id/rec"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_effect"
+        android:text="recognize a face"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:text="Open the camera to start recognizing faces!"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>
