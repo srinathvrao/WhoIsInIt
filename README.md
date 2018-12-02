@@ -12,7 +12,7 @@ The best feature about this application is it does not require a phone with a ro
 No database, and/or server is used to manage your data. 
 <br/>Clarifai's servers are contacted with your image and it returns the face embedding.
 
-**References at the end**
+**References given at the end**
 
 Hello, World!         |  I'm Srinath
 :---------------------------:|:-------------------------:
