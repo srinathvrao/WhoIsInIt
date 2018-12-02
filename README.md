@@ -1,7 +1,7 @@
 # WhoIsInIt
 Android application to recognize faces using OpenCV and Clarifai's API
 
-![Alt Text](https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/1.png?token=AbDP358VvgIOz-fRqzw1mNExLi-VaVntks5cDRFXwA%3D%3D =250x250)
+<img src="https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/1.png?token=AbDP358VvgIOz-fRqzw1mNExLi-VaVntks5cDRFXwA%3D%3D" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
 
 ![Alt Text](https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/2.png?token=AbDP3732Op52SH_j47e6Q8EdPBu56awZks5cDRF5wA%3D%3D)
 
