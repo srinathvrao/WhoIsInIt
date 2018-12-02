@@ -9,7 +9,8 @@ It takes about 1.5 seconds to recognize a face with a 43 Mbps upload speed.
 <br/>It took me 5.94 seconds because I had a 2.75 Mbps upload speed. (I live under a rock :) )
 
 #### All the face data - on your phone.
-Nothing is stored on a server. Your photo is sent to the Clarifai API, only to return the face embedding.
+No database, and/or server is used to manage your data. 
+Clarifai's servers are contacted with your image and it returns the face embedding.
 
 **References have been given at the end.**
 
