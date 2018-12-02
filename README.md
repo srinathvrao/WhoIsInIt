@@ -31,7 +31,7 @@ Training my face..           |  Done!
 <img src="https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/4.png?token=AbDP36qt2JRSFulJAGYWMt1HAvJD3TNyks5cDRGewA%3D%3D" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="250" height="444" />    |  <img src="https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/5.png?token=AbDP30oGH3AVGUj-zO8J5LxYLZLtEJ3Eks5cDRGswA%3D%3D" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="250" height="444" />
 
 
-###You can train other faces too!
+### You can train other faces too!
 
 Selecting images         |  Training Vignesh
 :---------------------------:|:-------------------------:
@@ -43,13 +43,13 @@ Selecting images         |  Training Siddath
 
 Once training is complete, we can test it out.
 
-It takes 5-6 seconds to recognize me, because of my potato internet upload speed. 
+It takes 5-6 seconds to recognize me, because of my potato internet upload speed.<br/>
 **With faster speeds, the API calls will naturally be faster.**
 
 ![Alt Text](https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/vid.gif?token=AbDP34X6IXR7erfQ8rwzEKbf6F2jrQvyks5cDRCJwA%3D%3D)
 
 
-#References:
+# References:
 <br />
 <a href="https://clarifai.com/models/face-embedding-image-recognition-model-d02b4508df58432fbb84e800597b8959">Clarifai's Face Embedding</a>
 <br/>
