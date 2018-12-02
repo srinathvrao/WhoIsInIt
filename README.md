@@ -1,12 +1,11 @@
-# WhoIsInIt : Face Recognition on Android using Clarifai and OpenCV
-Android application to recognize faces using OpenCV and Clarifai's API
+# WhoIsInIt : Real-time Face Recognition on Android using Clarifai's API and OpenCV
 
 This application uses the 1024-dimensional Face Embedding obtained from the Clarifai API, for each face, and performs a series of calculations on the phone, to check if 2 faces are close to each other, within a threshold distance.
 
 The best feature about this application is it does not require a phone with a robust GPU. You need a good internet upload speed.
 
 Clarifai's Face Embedding model is still in beta. It might not be the fastest. 
-<br/>It took 5.94 seconds to recognize my face with a 2.75 Mbps upload speed (I live under a rock)
+<br/>It takes about 2.5 seconds to recognize a trained face with a 43 Mbps upload speed.
 
 References given at the end.
 
