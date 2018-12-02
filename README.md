@@ -1,4 +1,4 @@
-# WhoIsInIt - Fastest Face recognition algorithm, coupled with the slowest Internet speed
+# WhoIsInIt - Almost Real-time face recognition on Android
 Android application to recognize faces using OpenCV and Clarifai's API
 
 This application uses the 1024-dimensional Face Embedding obtained from the Clarifai API, for each face, and performs a series of calculations on the phone, to check if 2 faces are close to each other, within a threshold distance.
