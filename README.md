@@ -17,6 +17,8 @@ The first step is to select images that contain only your face. This way, the mo
 
 You can select upto 25 images of yourself to train your face.
 
+<img src="https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/3.png?token=AbDP3_SIEhvvzh-NAuthOSWPCBk3AMW6ks5cDSK1wA%3D%3D" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="250" height="650" />
+
 Training 25 images of my face took approximately 3 minutes, with a 2.75 Mbps upload speed (I'm living under a rock)
 
 Training my face..           |  Done!
