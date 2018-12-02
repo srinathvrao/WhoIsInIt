@@ -9,10 +9,10 @@ The best feature about this application is it does not require a phone with a ro
 <br/>It takes about 1.5 seconds to recognize a face with a 43 Mbps upload speed.
 <br/>It took me 5.94 seconds because I had a 2.75 Mbps upload speed. (I live under a rock :) )
 
-##All the face data is stored locally, on your phone!! 
+## All the face data is stored locally, on your phone!! 
 Your photo is sent to the Clarifai API to return the face embedding.
 
-##References have been given at the end.
+## References have been given at the end.
 
 Hello, World!         |  I'm Srinath
 :---------------------------:|:-------------------------:
