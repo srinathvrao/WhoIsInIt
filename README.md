@@ -5,7 +5,8 @@ This application uses the 1024-dimensional Face Embedding obtained from the Clar
 The best feature about this application is it does not require a phone with a robust GPU. You need a good internet upload speed.
 
 Clarifai's Face Embedding model is still in beta. It might not be the fastest. 
-<br/>It takes about 2.5 seconds to recognize a trained face with a 43 Mbps upload speed.
+<br/>It takes about 1.5 seconds to recognize a face with a 43 Mbps upload speed.
+<br/>It took me 5.94 seconds because I had a 2.75 Mbps upload speed. (I live under a rock :) )
 
 References given at the end.
 
@@ -27,13 +28,19 @@ Training my face..           |  Done!
 <img src="https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/4.png?token=AbDP36qt2JRSFulJAGYWMt1HAvJD3TNyks5cDRGewA%3D%3D" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="250" height="444" />    |  <img src="https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/5.png?token=AbDP30oGH3AVGUj-zO8J5LxYLZLtEJ3Eks5cDRGswA%3D%3D" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="250" height="444" />
 
 
-You can also add more people to the group!
+You can train other faces too!
 
+Selecting images         |  Training Vignesh
+:---------------------------:|:-------------------------:
+<img src="https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/7.png?token=AbDP34AOyFeD3PkxFqocGMBTHOozeehUks5cDSfawA%3D%3D" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="250" height="444" />    |  <img src="https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/8.png?token=AbDP3wCpmCOSMAaT_RwFkOTlL3VmL2l-ks5cDSfbwA%3D%3D" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="250" height="444" />
 
+Selecting images         |  Training Siddath
+:---------------------------:|:-------------------------:
+<img src="https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/9.png?token=AbDP30ovy9WeRHwPoPgpVY40Y7eq3L_Sks5cDSfbwA%3D%3D" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="250" height="444" />    |  <img src="https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/10.png?token=AbDP33Nqex_gNpKSCaqU1lWbfU_Jl9iSks5cDSfdwA%3D%3D" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="250" height="444" />
 
-Now that training is complete, we can test it out.
+Once training is complete, we can test it out.
 
-This takes 5-6 seconds to recognize me, because of my potato internet speed. With faster speeds, the API calls will naturally be faster.
+It takes 5-6 seconds to recognize me, because of my potato internet speed. With faster speeds, the API calls will naturally be faster.
 
 ![Alt Text](https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/vid.gif?token=AbDP34X6IXR7erfQ8rwzEKbf6F2jrQvyks5cDRCJwA%3D%3D)
 
