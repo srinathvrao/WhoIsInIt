@@ -1,4 +1,4 @@
-# WhoIsInIt - Almost Real-time face recognition on Android
+# WhoIsInIt : Face Recognition on Android using Clarifai and OpenCV
 Android application to recognize faces using OpenCV and Clarifai's API
 
 This application uses the 1024-dimensional Face Embedding obtained from the Clarifai API, for each face, and performs a series of calculations on the phone, to check if 2 faces are close to each other, within a threshold distance.
