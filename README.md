@@ -30,7 +30,7 @@ Training my face..           |  Done!
 :---------------------------:|:-------------------------:
 <img src="https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/4.png?token=AbDP36qt2JRSFulJAGYWMt1HAvJD3TNyks5cDRGewA%3D%3D" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="250" height="444" />    |  <img src="https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/5.png?token=AbDP30oGH3AVGUj-zO8J5LxYLZLtEJ3Eks5cDRGswA%3D%3D" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="250" height="444" />
 
-
+<br/>
 ### You can train other faces too!
 
 Selecting images         |  Training Vignesh
@@ -41,7 +41,9 @@ Selecting images         |  Training Siddath
 :---------------------------:|:-------------------------:
 <img src="https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/9.png?token=AbDP30ovy9WeRHwPoPgpVY40Y7eq3L_Sks5cDSfbwA%3D%3D" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="250" height="444" />    |  <img src="https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/10.png?token=AbDP33Nqex_gNpKSCaqU1lWbfU_Jl9iSks5cDSfdwA%3D%3D" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="250" height="444" />
 
-Once training is complete, we can test it out.
+<br/>
+
+### Once training is complete, we can test it out.
 
 It takes 5-6 seconds to recognize me, because of my potato internet upload speed.<br/>
 **With faster speeds, the API calls will naturally be faster.**
@@ -50,7 +52,6 @@ It takes 5-6 seconds to recognize me, because of my potato internet upload speed
 
 
 # References:
-<br />
 <a href="https://clarifai.com/models/face-embedding-image-recognition-model-d02b4508df58432fbb84e800597b8959">Clarifai's Face Embedding</a>
 <br/>
 <a href="http://blog.codeonion.com/2015/11/25/creating-a-new-opencv-project-in-android-studio/">Setting up OpenCV on Android Studio</a>
