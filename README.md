@@ -5,7 +5,7 @@ This application uses the 1024-dimensional Face Embedding obtained from the Clar
 The best feature about this application is it does not require a phone with a robust GPU. You only need a good internet upload speed.
 
 **Clarifai's Face Embedding model is still in beta. It might not be the fastest.**
-It takes about 1.5 seconds to recognize a face with a 43 Mbps upload speed.
+<br/>It takes about 1.5 seconds to recognize a face with a 43 Mbps upload speed.
 <br/>It took me 5.94 seconds because I had a 2.75 Mbps upload speed. (I live under a rock :) )
 
 #### All the face data - on your phone.
