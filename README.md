@@ -1,14 +1,18 @@
 # WhoIsInIt : Real-time Face Recognition on Android using Clarifai's API and OpenCV
 
-This application uses the 1024-dimensional Face Embedding obtained from the Clarifai API, for each face, and performs a series of calculations on the phone, to check if 2 faces are close to each other, within a threshold distance.
+This application uses the 1024-dimensional Face Embedding obtained from the Clarifai API, for each face, and performs a series of calculations on the phone, to check if 2 faces are close to each other, within a threshold.
 
-The best feature about this application is it does not require a phone with a robust GPU. You need a good internet upload speed.
+The best feature about this application is it does not require a phone with a robust GPU. You only need a good internet upload speed.
 
-Clarifai's Face Embedding model is still in beta. It might not be the fastest. 
+**Clarifai's Face Embedding model is still in beta. It might not be the fastest.**
+
 <br/>It takes about 1.5 seconds to recognize a face with a 43 Mbps upload speed.
 <br/>It took me 5.94 seconds because I had a 2.75 Mbps upload speed. (I live under a rock :) )
 
-References given at the end.
+##All the face data is stored locally, on your phone!! 
+Your photo is sent to the Clarifai API to return the face embedding.
+
+##References have been given at the end.
 
 Hello, World!         |  I'm Srinath
 :---------------------------:|:-------------------------:
@@ -16,7 +20,6 @@ Hello, World!         |  I'm Srinath
 
 
 The first step is to select images that contain only your face. This way, the model can be trained to recognize your face.
-
 You can select upto 25 images of yourself to train your face.
 
 <img src="https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/3.png?token=AbDP3wPF0JZkWahhyQTHUKpa8fGl0SwUks5cDSOuwA%3D%3D" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="250" height="444" />
@@ -28,7 +31,7 @@ Training my face..           |  Done!
 <img src="https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/4.png?token=AbDP36qt2JRSFulJAGYWMt1HAvJD3TNyks5cDRGewA%3D%3D" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="250" height="444" />    |  <img src="https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/5.png?token=AbDP30oGH3AVGUj-zO8J5LxYLZLtEJ3Eks5cDRGswA%3D%3D" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="250" height="444" />
 
 
-You can train other faces too!
+###You can train other faces too!
 
 Selecting images         |  Training Vignesh
 :---------------------------:|:-------------------------:
@@ -40,12 +43,14 @@ Selecting images         |  Training Siddath
 
 Once training is complete, we can test it out.
 
-It takes 5-6 seconds to recognize me, because of my potato internet upload speed. With faster speeds, the API calls will naturally be faster.
+It takes 5-6 seconds to recognize me, because of my potato internet upload speed. 
+**With faster speeds, the API calls will naturally be faster.**
 
 ![Alt Text](https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/vid.gif?token=AbDP34X6IXR7erfQ8rwzEKbf6F2jrQvyks5cDRCJwA%3D%3D)
 
 
-<b>References:</b><br />
+#References:
+<br />
 <a href="https://clarifai.com/models/face-embedding-image-recognition-model-d02b4508df58432fbb84e800597b8959">Clarifai's Face Embedding</a>
 <br/>
 <a href="http://blog.codeonion.com/2015/11/25/creating-a-new-opencv-project-in-android-studio/">Setting up OpenCV on Android Studio</a>
