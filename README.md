@@ -21,7 +21,7 @@ You can select upto 25 images of yourself to train your face.
 
 <img src="https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/3.png?token=AbDP3wPF0JZkWahhyQTHUKpa8fGl0SwUks5cDSOuwA%3D%3D" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="250" height="444" />
 
-Training 25 images of my face took approximately 3 minutes, with a 2.75 Mbps upload speed (I'm living under a rock)
+Training 25 images of my face took me approximately 3 minutes... (Due to slow upload speed)
 
 Training my face..           |  Done!
 :---------------------------:|:-------------------------:
@@ -40,7 +40,7 @@ Selecting images         |  Training Siddath
 
 Once training is complete, we can test it out.
 
-It takes 5-6 seconds to recognize me, because of my potato internet speed. With faster speeds, the API calls will naturally be faster.
+It takes 5-6 seconds to recognize me, because of my potato internet upload speed. With faster speeds, the API calls will naturally be faster.
 
 ![Alt Text](https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/vid.gif?token=AbDP34X6IXR7erfQ8rwzEKbf6F2jrQvyks5cDRCJwA%3D%3D)
 
