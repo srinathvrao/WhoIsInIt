@@ -1,16 +1,14 @@
 # WhoIsInIt
 Android application to recognize faces using OpenCV and Clarifai's API
 
-This application uses the Face Embedding obtained from the Clarifai API, for each face, and performs a series of calculations on the phone, to check if 2 faces are close to each other, within a threshold distance.
+This application uses the 1024-dimensional Face Embedding obtained from the Clarifai API, for each face, and performs a series of calculations on the phone, to check if 2 faces are close to each other, within a threshold distance.
 
-The only Neural Net that is used in this application is in Clarifai's API, to get the Face Embedding. It isn't used anywhere else, as evaluating the distance between 2 faces can be executed in no time on the phone's CPU itself.
+The best feature about this application is it does not require a phone with a robust GPU. You need a good internet upload speed.
 
-Both Training your face and Recognizing your face is heavily dependent on a robust Internet upload speed. So if your internet isn't great, don't expect blazing fast results.
-Clarifai's Neural Net also takes a while to return the face Embedding.
+Clarifai's Face Embedding model is still in beta. It might not be the fastest. To recognize my face, 
+it took 5.94 seconds with a 2.75 Mbps upload speed (I live under a rock)
 
-Other than these 2 factors, your face should be recognized in less than half of a second.
-
-Sources given at the end.
+References given at the end.
 
 <img src="https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/1.png?token=AbDP358VvgIOz-fRqzw1mNExLi-VaVntks5cDRFXwA%3D%3D" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="250" height="444" />
 
@@ -27,19 +25,14 @@ Training my face..           |  Done!
 <img src="https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/4.png?token=AbDP36qt2JRSFulJAGYWMt1HAvJD3TNyks5cDRGewA%3D%3D" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="250" height="444" />    |  <img src="https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/5.png?token=AbDP30oGH3AVGUj-zO8J5LxYLZLtEJ3Eks5cDRGswA%3D%3D" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="250" height="444" />
 
 
-
-
-
 Now that training is complete, we can test it out.
-
-<img src="https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/6.png?token=AbDP3xtQuHjhibFzuzoQCQqcHASimA8Hks5cDRHAwA%3D%3D" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="250" height="444" />
 
 This takes 5-6 seconds to recognize me, because of my potato internet speed. With faster speeds, the API calls will naturally be faster.
 
 ![Alt Text](https://raw.githubusercontent.com/srinath10101/WhoIsInIt/master/screenshots/vid.gif?token=AbDP34X6IXR7erfQ8rwzEKbf6F2jrQvyks5cDRCJwA%3D%3D)
 
 
-Sources:<br />
+References:<br />
 <a href="https://clarifai.com/models/face-embedding-image-recognition-model-d02b4508df58432fbb84e800597b8959">Clarifai's Face Embedding</a>
 <br/>
 <a href="http://blog.codeonion.com/2015/11/25/creating-a-new-opencv-project-in-android-studio/">Setting up OpenCV on Android Studio</a>
